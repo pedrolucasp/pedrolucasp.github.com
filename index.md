@@ -4,7 +4,7 @@ title: "Pedro Lucas Porcellis"
 ---
 {% include JB/setup %}
 
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-
+        {% for post in site.posts %}  
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}" data-disqus-identifier="{{ post.url }}"></a></small></p>      
+        {% endfor %}  
