@@ -8,7 +8,7 @@ title: "Pedro Lucas Porcellis"
 
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <p><strong>{{ post.date | date: "%B %e, %Y" }}</strong> {{ post.category }} <a href="http://pedrolucasp.github.com{{ post.url }}"></a></p> 
-{% if article.has_summary %}
-{{ article.summary }}
+{% if post.has_summary %}
+{{ post.summary }}
 {% endif %}  
 {% endfor %}  
