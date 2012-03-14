@@ -11,5 +11,4 @@ title: "Pedro Lucas Porcellis"
 {% if article.has_summary %}
 {{ article.summary }}
 {% endif %}  
-</a>    
 {% endfor %}  
