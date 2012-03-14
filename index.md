@@ -6,7 +6,7 @@ title: "Pedro Lucas Porcellis"
 
 {% for post in site.posts %}  
 
-<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 <p><strong>{{ post.date | date: "%B %e, %Y" }}</strong>
   {{ post.category }} </p>
 <p> {{ post.content }} </p>

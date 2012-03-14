@@ -1,0 +1,13 @@
+---
+layout: post
+category : intro
+tags : [intro, jekyll, ruby]
+---
+{% include JB/setup %}
+
+
+Bem vindo ao meu blog. Esse blog foi apenas uma especie de 'teste' com o Jekyll, Ruby, e o GitHub. Claro, usarei aqui para postar meus projetos, e coisas similares, música, código, e afins. Vai ser bem diversificado. Então se prepare :P. 
+
+### How it Works?
+
+O Blog é simples, como pode ver, estou usando o GitHub, o Jekyll, e o Twitter Bootstrap, para o layout. 
